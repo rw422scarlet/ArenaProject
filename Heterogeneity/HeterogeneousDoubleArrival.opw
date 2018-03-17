@@ -1,0 +1,34 @@
+[RESOURCES]
+Attention
+[VARIABLES]
+Referencing_Fleet2.NumberOut
+Referencing.NumberOut
+Process_Actuation.NumberOut
+Process_Recordkeeping.NumberIn
+Process_Actuation.NumberIn
+Process_Recordkeeping.NumberOut
+Process_Directive_Courtesy_2.NumberIn
+Process_Directive_Courtesy_1.NumberIn
+Process_Directive_Courtesy_2.NumberOut
+Process_Directive_Courtesy_1.NumberOut
+Communications_Other_Fleet2.NumberOut
+Actuation_Fleet 2.NumberOut
+Process_Referencing.NumberOut
+Process_Directive_Mandatory.NumberOut
+Actuation.NumberOut
+Process_Referencing.NumberIn
+Directive_Courtesy_2_Fleet2.NumberOut
+Directive_Courtesy_1_Fleet2.NumberOut
+Process_Communications_Other.NumberOut
+Dispose 1.NumberOut
+Process_Communications_Other.NumberIn
+Directive_Mandatory.NumberOut
+Dispatch seize resource.NumberOut
+Directive_Mandatory_Fleet2.NumberOut
+Communications_Other.NumberOut
+Recordkeeping_Fleet2.NumberOut
+Dispatch seize resource.NumberIn
+Recordkeeping.NumberOut
+Directive_Courtesy_2.NumberOut
+Directive_Courtesy_1.NumberOut
+Process_Directive_Mandatory.NumberIn
