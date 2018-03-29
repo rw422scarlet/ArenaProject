@@ -1,0 +1,935 @@
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 1 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.2612     (Insuf)    1.1613     3.5298         13    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         13    
+Entity 1.WaitTime                           2.1877     (Insuf)    .00000     10.410         13    
+Entity 1.TranTime                           .00171     (Insuf)    1.3115E-04 .00287         13    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TotalTime                          4.4507     (Insuf)    1.2992     12.816         13    
+Entity 2.VATime                             .74144     (Insuf)    .53552     .92579         16    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 2.WaitTime                           2.5886     (Insuf)    .00000     12.027         16    
+Entity 2.TranTime                           .00147     (Insuf)    5.2714E-04 .00284         16    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 2.TotalTime                          3.3315     (Insuf)    .68188     12.774         16    
+Entity 3.VATime                             10.549     (Insuf)    10.549     10.549          1    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 3.WaitTime                           9.5640     (Insuf)    9.5640     9.5640          1    
+Entity 3.TranTime                           .00124     (Insuf)    .00124     .00124          1    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Entity 3.TotalTime                          20.114     (Insuf)    20.114     20.114          1    
+Entity 4.VATime                                 --         --         --         --          0
+Entity 4.NVATime                                --         --         --         --          0
+Entity 4.WaitTime                               --         --         --         --          0
+Entity 4.TranTime                               --         --         --         --          0
+Entity 4.OtherTime                              --         --         --         --          0
+Entity 4.TotalTime                              --         --         --         --          0
+Entity 5.VATime                             2.3290     (Insuf)    .25582     4.3312         42    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         42    
+Entity 5.WaitTime                           3.0324     (Insuf)    .00000     15.393         42    
+Entity 5.TranTime                           .00156     (Insuf)    1.2406E-04 .00312         42    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         42    
+Entity 5.TotalTime                          5.3630     (Insuf)    .25711     18.410         42    
+Entity 6.VATime                             2.0299     (Insuf)    1.1581     2.9482         69    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         69    
+Entity 6.WaitTime                           3.2502     (Insuf)    .00000     17.749         69    
+Entity 6.TranTime                           .00165     (Insuf)    8.8714E-05 .00310         69    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         69    
+Entity 6.TotalTime                          5.2818     (Insuf)    1.1603     19.875         69    
+Entity 7.VATime                             9.9582     (Insuf)    5.6624     13.724         68    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         68    
+Entity 7.WaitTime                           3.6066     (Insuf)    .00000     14.506         68    
+Entity 7.TranTime                           .00175     (Insuf)    3.8740E-04 .00300         68    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         68    
+Entity 7.TotalTime                          13.566     (Insuf)    5.6649     24.174         68    
+Dispatch seize resource.Queue.WaitingTime   3.1949     (Insuf)    .00000     17.749        209    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .12858     (Insuf)    .00000     1.0000     .00000    
+Entity 2.WIP                                .11846     (Insuf)    .00000     2.0000     .00000    
+Entity 3.WIP                                .04470     (Insuf)    .00000     1.0000     .00000    
+Entity 4.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 5.WIP                                .50055     (Insuf)    .00000     3.0000     .00000    
+Entity 6.WIP                                .80989     (Insuf)    .00000     8.0000     .00000    
+Entity 7.WIP                                2.0610     (Insuf)    .00000     7.0000     4.0000    
+Attention.NumberBusy                        2.1778     (Insuf)    .00000     3.0000     3.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .72593     (Insuf)    .00000     1.0000     1.0000    
+Dispatch seize resource.Queue.NumberInQueu  1.4854     (Insuf)    .00000     10.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           13.000    
+Entity 1.NumberOut                          13.000    
+Entity 2.NumberIn                           16.000    
+Entity 2.NumberOut                          16.000    
+Entity 3.NumberIn                           1.0000    
+Entity 3.NumberOut                          1.0000    
+Entity 4.NumberIn                           .00000    
+Entity 4.NumberOut                          .00000    
+Entity 5.NumberIn                           42.000    
+Entity 5.NumberOut                          42.000    
+Entity 6.NumberIn                           69.000    
+Entity 6.NumberOut                          69.000    
+Entity 7.NumberIn                           68.000    
+Entity 7.NumberOut                          68.000    
+Attention.NumberSeized                      209.00    
+Attention.ScheduledUtilization              .72593    
+System.NumberOut                            209.00    
+
+Beginning replication 2 of 50
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 2 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.7625     (Insuf)    1.3151     4.6112          9    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          9    
+Entity 1.WaitTime                           5.0002     (Insuf)    .00000     10.902          9    
+Entity 1.TranTime                           .00119     (Insuf)    3.4723E-04 .00250          9    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          9    
+Entity 1.TotalTime                          7.7640     (Insuf)    2.2660     13.260          9    
+Entity 2.VATime                             .70179     (Insuf)    .52951     .93214         13    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         13    
+Entity 2.WaitTime                           2.6927     (Insuf)    .00000     7.3100         13    
+Entity 2.TranTime                           .00180     (Insuf)    .00103     .00265         13    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         13    
+Entity 2.TotalTime                          3.3963     (Insuf)    .68659     7.9076         13    
+Entity 3.VATime                                 --         --         --         --          0
+Entity 3.NVATime                                --         --         --         --          0
+Entity 3.WaitTime                               --         --         --         --          0
+Entity 3.TranTime                               --         --         --         --          0
+Entity 3.OtherTime                              --         --         --         --          0
+Entity 3.TotalTime                              --         --         --         --          0
+Entity 4.VATime                             1.0748     (Insuf)    1.0748     1.0748          1    
+Entity 4.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 4.WaitTime                           1.3124     (Insuf)    1.3124     1.3124          1    
+Entity 4.TranTime                           .00162     (Insuf)    .00162     .00162          1    
+Entity 4.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Entity 4.TotalTime                          2.3889     (Insuf)    2.3889     2.3889          1    
+Entity 5.VATime                             2.3182     (Insuf)    .59146     4.1824         31    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Entity 5.WaitTime                           3.0624     (Insuf)    .00000     11.867         31    
+Entity 5.TranTime                           .00155     (Insuf)    3.7417E-04 .00273         31    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Entity 5.TotalTime                          5.3822     (Insuf)    .59273     14.207         31    
+Entity 6.VATime                             2.0085     (Insuf)    1.1014     2.8802         71    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         71    
+Entity 6.WaitTime                           2.7158     (Insuf)    .00000     11.273         71    
+Entity 6.TranTime                           .00166     (Insuf)    2.0922E-04 .00291         71    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         71    
+Entity 6.TotalTime                          4.7260     (Insuf)    1.1036     14.027         71    
+Entity 7.VATime                             9.8062     (Insuf)    5.1404     14.590         81    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         81    
+Entity 7.WaitTime                           2.8324     (Insuf)    .00000     11.930         81    
+Entity 7.TranTime                           .00168     (Insuf)    7.0106E-05 .00296         81    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         81    
+Entity 7.TotalTime                          12.640     (Insuf)    5.6911     24.385         81    
+Dispatch seize resource.Queue.WaitingTime   2.9164     (Insuf)    .00000     11.930        205    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .15528     (Insuf)    .00000     2.0000     .00000    
+Entity 2.WIP                                .09812     (Insuf)    .00000     1.0000     .00000    
+Entity 3.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 4.WIP                                .00531     (Insuf)    .00000     1.0000     .00000    
+Entity 5.WIP                                .37077     (Insuf)    .00000     3.0000     .00000    
+Entity 6.WIP                                .74173     (Insuf)    .00000     6.0000     .00000    
+Entity 7.WIP                                2.2544     (Insuf)    .00000     7.0000     2.0000    
+Attention.NumberBusy                        2.2987     (Insuf)    .00000     3.0000     2.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .76624     (Insuf)    .00000     1.0000     .66667    
+Dispatch seize resource.Queue.NumberInQueu  1.3269     (Insuf)    .00000     8.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           9.0000    
+Entity 1.NumberOut                          9.0000    
+Entity 2.NumberIn                           13.000    
+Entity 2.NumberOut                          13.000    
+Entity 3.NumberIn                           .00000    
+Entity 3.NumberOut                          .00000    
+Entity 4.NumberIn                           1.0000    
+Entity 4.NumberOut                          1.0000    
+Entity 5.NumberIn                           31.000    
+Entity 5.NumberOut                          31.000    
+Entity 6.NumberIn                           70.000    
+Entity 6.NumberOut                          71.000    
+Entity 7.NumberIn                           80.000    
+Entity 7.NumberOut                          81.000    
+Attention.NumberSeized                      205.00    
+Attention.ScheduledUtilization              .76624    
+System.NumberOut                            206.00    
+
+Beginning replication 3 of 50
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 3 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.6914     (Insuf)    1.2063     4.3378         30    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         30    
+Entity 1.WaitTime                           3.0094     (Insuf)    .00000     10.742         30    
+Entity 1.TranTime                           .00176     (Insuf)    8.3903E-04 .00282         30    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         30    
+Entity 1.TotalTime                          5.7026     (Insuf)    1.2079     13.761         30    
+Entity 2.VATime                             .76374     (Insuf)    .55285     .93758         13    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         13    
+Entity 2.WaitTime                           2.6946     (Insuf)    .00000     11.350         13    
+Entity 2.TranTime                           .00161     (Insuf)    8.5333E-04 .00286         13    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         13    
+Entity 2.TotalTime                          3.4599     (Insuf)    .66763     11.904         13    
+Entity 3.VATime                             10.520     (Insuf)    8.8722     12.168          2    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 3.WaitTime                           5.0625     (Insuf)    .00000     10.125          2    
+Entity 3.TranTime                           .00236     (Insuf)    .00234     .00239          2    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000          2    
+Entity 3.TotalTime                          15.585     (Insuf)    8.8746     22.296          2    
+Entity 4.VATime                             1.4572     (Insuf)    1.4572     1.4572          1    
+Entity 4.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 4.WaitTime                           5.4774     (Insuf)    5.4774     5.4774          1    
+Entity 4.TranTime                           .00206     (Insuf)    .00206     .00206          1    
+Entity 4.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Entity 4.TotalTime                          6.9368     (Insuf)    6.9368     6.9368          1    
+Entity 5.VATime                             2.3791     (Insuf)    .36638     4.8005         43    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         43    
+Entity 5.WaitTime                           2.7165     (Insuf)    .00000     13.456         43    
+Entity 5.TranTime                           .00165     (Insuf)    5.3246E-04 .00305         43    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         43    
+Entity 5.TotalTime                          5.0973     (Insuf)    1.1169     14.405         43    
+Entity 6.VATime                             1.9868     (Insuf)    1.0267     2.9358         72    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         72    
+Entity 6.WaitTime                           3.8624     (Insuf)    .00000     14.961         72    
+Entity 6.TranTime                           .00154     (Insuf)    3.6827E-04 .00272         72    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         72    
+Entity 6.TotalTime                          5.8507     (Insuf)    1.0286     16.921         72    
+Entity 7.VATime                             9.8808     (Insuf)    5.4771     14.414         75    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Entity 7.WaitTime                           2.5962     (Insuf)    .00000     11.169         75    
+Entity 7.TranTime                           .00162     (Insuf)    2.6865E-04 .00320         75    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Entity 7.TotalTime                          12.478     (Insuf)    6.3390     22.041         75    
+Dispatch seize resource.Queue.WaitingTime   3.1091     (Insuf)    .00000     14.961        236    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .38014     (Insuf)    .00000     3.0000     .00000    
+Entity 2.WIP                                .10676     (Insuf)    .00000     1.0000     1.0000    
+Entity 3.WIP                                .06927     (Insuf)    .00000     1.0000     .00000    
+Entity 4.WIP                                .01542     (Insuf)    .00000     1.0000     .00000    
+Entity 5.WIP                                .48708     (Insuf)    .00000     3.0000     .00000    
+Entity 6.WIP                                .94665     (Insuf)    .00000     5.0000     1.0000    
+Entity 7.WIP                                2.0888     (Insuf)    .00000     6.0000     2.0000    
+Attention.NumberBusy                        2.4567     (Insuf)    .00000     3.0000     3.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .81893     (Insuf)    .00000     1.0000     1.0000    
+Dispatch seize resource.Queue.NumberInQueu  1.6373     (Insuf)    .00000     9.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           29.000    
+Entity 1.NumberOut                          30.000    
+Entity 2.NumberIn                           14.000    
+Entity 2.NumberOut                          13.000    
+Entity 3.NumberIn                           2.0000    
+Entity 3.NumberOut                          2.0000    
+Entity 4.NumberIn                           1.0000    
+Entity 4.NumberOut                          1.0000    
+Entity 5.NumberIn                           43.000    
+Entity 5.NumberOut                          43.000    
+Entity 6.NumberIn                           73.000    
+Entity 6.NumberOut                          72.000    
+Entity 7.NumberIn                           75.000    
+Entity 7.NumberOut                          75.000    
+Attention.NumberSeized                      236.00    
+Attention.ScheduledUtilization              .81893    
+System.NumberOut                            236.00    
+
+Beginning replication 4 of 50
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 4 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.5358     (Insuf)    1.2011     4.4334         16    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 1.WaitTime                           3.9288     (Insuf)    .00000     16.283         16    
+Entity 1.TranTime                           .00169     (Insuf)    4.7073E-04 .00275         16    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 1.TotalTime                          6.4664     (Insuf)    1.3314     19.257         16    
+Entity 2.VATime                             .77119     (Insuf)    .62533     .86511         16    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 2.WaitTime                           4.2111     (Insuf)    .00000     13.090         16    
+Entity 2.TranTime                           .00151     (Insuf)    1.4787E-04 .00287         16    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 2.TotalTime                          4.9838     (Insuf)    .63070     13.939         16    
+Entity 3.VATime                             12.002     (Insuf)    9.2311     14.774          2    
+Entity 3.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 3.WaitTime                           3.9820     (Insuf)    .00000     7.9640          2    
+Entity 3.TranTime                           .00204     (Insuf)    .00101     .00308          2    
+Entity 3.OtherTime                          .00000     (Insuf)    .00000     .00000          2    
+Entity 3.TotalTime                          15.986     (Insuf)    14.775     17.198          2    
+Entity 4.VATime                                 --         --         --         --          0
+Entity 4.NVATime                                --         --         --         --          0
+Entity 4.WaitTime                               --         --         --         --          0
+Entity 4.TranTime                               --         --         --         --          0
+Entity 4.OtherTime                              --         --         --         --          0
+Entity 4.TotalTime                              --         --         --         --          0
+Entity 5.VATime                             2.4244     (Insuf)    .20995     4.0990         50    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         50    
+Entity 5.WaitTime                           3.4607     (Insuf)    .00000     17.276         50    
+Entity 5.TranTime                           .00177     (Insuf)    1.0148E-04 .00307         50    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         50    
+Entity 5.TotalTime                          5.8869     (Insuf)    .34420     18.781         50    
+Entity 6.VATime                             1.9869     (Insuf)    1.0682     2.7966         66    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         66    
+Entity 6.WaitTime                           3.0448     (Insuf)    .00000     14.922         66    
+Entity 6.TranTime                           .00160     (Insuf)    4.0429E-05 .00312         66    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         66    
+Entity 6.TotalTime                          5.0334     (Insuf)    1.2009     17.141         66    
+Entity 7.VATime                             9.5750     (Insuf)    5.4310     14.136         75    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Entity 7.WaitTime                           3.2362     (Insuf)    .00000     15.272         75    
+Entity 7.TranTime                           .00161     (Insuf)    1.9804E-04 .00302         75    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Entity 7.TotalTime                          12.812     (Insuf)    5.8279     26.183         75    
+Dispatch seize resource.Queue.WaitingTime   3.2563     (Insuf)    .00000     17.276        225    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .22906     (Insuf)    .00000     2.0000     1.0000    
+Entity 2.WIP                                .17720     (Insuf)    .00000     2.0000     .00000    
+Entity 3.WIP                                .07105     (Insuf)    .00000     1.0000     .00000    
+Entity 4.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 5.WIP                                .56650     (Insuf)    .00000     4.0000     .00000    
+Entity 6.WIP                                .71788     (Insuf)    .00000     3.0000     3.0000    
+Entity 7.WIP                                2.0519     (Insuf)    .00000     8.0000     2.0000    
+Attention.NumberBusy                        2.3184     (Insuf)    .00000     3.0000     3.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .77280     (Insuf)    .00000     1.0000     1.0000    
+Dispatch seize resource.Queue.NumberInQueu  1.4952     (Insuf)    .00000     10.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           16.000    
+Entity 1.NumberOut                          16.000    
+Entity 2.NumberIn                           16.000    
+Entity 2.NumberOut                          16.000    
+Entity 3.NumberIn                           2.0000    
+Entity 3.NumberOut                          2.0000    
+Entity 4.NumberIn                           .00000    
+Entity 4.NumberOut                          .00000    
+Entity 5.NumberIn                           46.000    
+Entity 5.NumberOut                          50.000    
+Entity 6.NumberIn                           67.000    
+Entity 6.NumberOut                          66.000    
+Entity 7.NumberIn                           73.000    
+Entity 7.NumberOut                          75.000    
+Attention.NumberSeized                      225.00    
+Attention.ScheduledUtilization              .77280    
+System.NumberOut                            225.00    
+
+Beginning replication 5 of 50
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 5 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             3.1526     (Insuf)    1.6515     4.8818         17    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         17    
+Entity 1.WaitTime                           .97631     (Insuf)    .00000     4.4270         17    
+Entity 1.TranTime                           .00155     (Insuf)    2.4895E-04 .00263         17    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
+Entity 1.TotalTime                          4.1305     (Insuf)    1.6525     7.9188         17    
+Entity 2.VATime                             .76969     (Insuf)    .63463     .92210         16    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 2.WaitTime                           1.1881     (Insuf)    .00000     6.0082         16    
+Entity 2.TranTime                           .00184     (Insuf)    9.8240E-04 .00297         16    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 2.TotalTime                          1.9596     (Insuf)    .68025     6.7435         16    
+Entity 3.VATime                                 --         --         --         --          0
+Entity 3.NVATime                                --         --         --         --          0
+Entity 3.WaitTime                               --         --         --         --          0
+Entity 3.TranTime                               --         --         --         --          0
+Entity 3.OtherTime                              --         --         --         --          0
+Entity 3.TotalTime                              --         --         --         --          0
+Entity 4.VATime                             1.4394     (Insuf)    1.3362     1.5426          2    
+Entity 4.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 4.WaitTime                           2.3375     (Insuf)    1.8886     2.7864          2    
+Entity 4.TranTime                           .00182     (Insuf)    .00147     .00217          2    
+Entity 4.OtherTime                          .00000     (Insuf)    .00000     .00000          2    
+Entity 4.TotalTime                          3.7788     (Insuf)    3.4327     4.1248          2    
+Entity 5.VATime                             2.4718     (Insuf)    .68171     4.0665         47    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         47    
+Entity 5.WaitTime                           2.9516     (Insuf)    .00000     17.452         47    
+Entity 5.TranTime                           .00147     (Insuf)    2.6278E-04 .00278         47    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         47    
+Entity 5.TotalTime                          5.4250     (Insuf)    .68334     19.580         47    
+Entity 6.VATime                             1.9528     (Insuf)    1.1802     2.7046         67    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         67    
+Entity 6.WaitTime                           1.3788     (Insuf)    .00000     15.205         67    
+Entity 6.TranTime                           .00151     (Insuf)    1.3913E-04 .00301         67    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         67    
+Entity 6.TotalTime                          3.3332     (Insuf)    1.1813     16.492         67    
+Entity 7.VATime                             9.6856     (Insuf)    5.3027     14.689         63    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Entity 7.WaitTime                           2.9591     (Insuf)    .00000     17.398         63    
+Entity 7.TranTime                           .00171     (Insuf)    2.0102E-04 .00324         63    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Entity 7.TotalTime                          12.646     (Insuf)    5.3056     28.208         63    
+Dispatch seize resource.Queue.WaitingTime   2.1142     (Insuf)    .00000     17.452        210    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .15604     (Insuf)    .00000     2.0000     .00000    
+Entity 2.WIP                                .06968     (Insuf)    .00000     2.0000     .00000    
+Entity 3.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 4.WIP                                .01679     (Insuf)    .00000     1.0000     .00000    
+Entity 5.WIP                                .54574     (Insuf)    .00000     3.0000     .00000    
+Entity 6.WIP                                .49629     (Insuf)    .00000     3.0000     .00000    
+Entity 7.WIP                                1.6585     (Insuf)    .00000     8.0000     1.0000    
+Attention.NumberBusy                        2.0180     (Insuf)    .00000     3.0000     1.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .67270     (Insuf)    .00000     1.0000     .33333    
+Dispatch seize resource.Queue.NumberInQueu  .92504     (Insuf)    .00000     9.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           17.000    
+Entity 1.NumberOut                          17.000    
+Entity 2.NumberIn                           16.000    
+Entity 2.NumberOut                          16.000    
+Entity 3.NumberIn                           .00000    
+Entity 3.NumberOut                          .00000    
+Entity 4.NumberIn                           2.0000    
+Entity 4.NumberOut                          2.0000    
+Entity 5.NumberIn                           46.000    
+Entity 5.NumberOut                          47.000    
+Entity 6.NumberIn                           67.000    
+Entity 6.NumberOut                          67.000    
+Entity 7.NumberIn                           58.000    
+Entity 7.NumberOut                          63.000    
+Attention.NumberSeized                      210.00    
+Attention.ScheduledUtilization              .67270    
+System.NumberOut                            212.00    
+
+Beginning replication 6 of 50
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 6 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.3351     (Insuf)    1.4213     3.7503         25    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         25    
+Entity 1.WaitTime                           .73757     (Insuf)    .00000     4.5093         25    
+Entity 1.TranTime                           .00158     (Insuf)    2.6607E-04 .00309         25    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         25    
+Entity 1.TotalTime                          3.0743     (Insuf)    1.5481     6.8330         25    
+Entity 2.VATime                             .73614     (Insuf)    .58180     .91859         16    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 2.WaitTime                           1.7209     (Insuf)    .00000     6.9077         16    
+Entity 2.TranTime                           .00169     (Insuf)    1.2041E-04 .00288         16    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 2.TotalTime                          2.4587     (Insuf)    .64538     7.4924         16    
+Entity 3.VATime                                 --         --         --         --          0
+Entity 3.NVATime                                --         --         --         --          0
+Entity 3.WaitTime                               --         --         --         --          0
+Entity 3.TranTime                               --         --         --         --          0
+Entity 3.OtherTime                              --         --         --         --          0
+Entity 3.TotalTime                              --         --         --         --          0
+Entity 4.VATime                                 --         --         --         --          0
+Entity 4.NVATime                                --         --         --         --          0
+Entity 4.WaitTime                               --         --         --         --          0
+Entity 4.TranTime                               --         --         --         --          0
+Entity 4.OtherTime                              --         --         --         --          0
+Entity 4.TotalTime                              --         --         --         --          0
+Entity 5.VATime                             2.3010     (Insuf)    .30644     4.1786         42    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         42    
+Entity 5.WaitTime                           1.7819     (Insuf)    .00000     8.8499         42    
+Entity 5.TranTime                           .00155     (Insuf)    3.6015E-04 .00307         42    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         42    
+Entity 5.TotalTime                          4.0845     (Insuf)    .60825     11.419         42    
+Entity 6.VATime                             1.9761     (Insuf)    1.2578     2.7863         72    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         72    
+Entity 6.WaitTime                           1.4918     (Insuf)    .00000     11.326         72    
+Entity 6.TranTime                           .00162     (Insuf)    1.1786E-04 .00315         72    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         72    
+Entity 6.TotalTime                          3.4695     (Insuf)    1.4110     13.651         72    
+Entity 7.VATime                             9.5796     (Insuf)    5.5326     14.766         77    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         77    
+Entity 7.WaitTime                           1.4270     (Insuf)    .00000     6.9621         77    
+Entity 7.TranTime                           .00166     (Insuf)    2.5288E-04 .00317         77    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         77    
+Entity 7.TotalTime                          11.008     (Insuf)    5.5346     20.494         77    
+Dispatch seize resource.Queue.WaitingTime   1.4427     (Insuf)    .00000     11.326        230    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .17080     (Insuf)    .00000     3.0000     .00000    
+Entity 2.WIP                                .08742     (Insuf)    .00000     1.0000     .00000    
+Entity 3.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 4.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 5.WIP                                .38122     (Insuf)    .00000     3.0000     .00000    
+Entity 6.WIP                                .55146     (Insuf)    .00000     3.0000     .00000    
+Entity 7.WIP                                1.8381     (Insuf)    .00000     5.0000     1.0000    
+Attention.NumberBusy                        2.3023     (Insuf)    .00000     3.0000     1.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .76744     (Insuf)    .00000     1.0000     .33333    
+Dispatch seize resource.Queue.NumberInQueu  .72676     (Insuf)    .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           25.000    
+Entity 1.NumberOut                          25.000    
+Entity 2.NumberIn                           16.000    
+Entity 2.NumberOut                          16.000    
+Entity 3.NumberIn                           .00000    
+Entity 3.NumberOut                          .00000    
+Entity 4.NumberIn                           .00000    
+Entity 4.NumberOut                          .00000    
+Entity 5.NumberIn                           42.000    
+Entity 5.NumberOut                          42.000    
+Entity 6.NumberIn                           71.000    
+Entity 6.NumberOut                          72.000    
+Entity 7.NumberIn                           74.000    
+Entity 7.NumberOut                          77.000    
+Attention.NumberSeized                      230.00    
+Attention.ScheduledUtilization              .76744    
+System.NumberOut                            232.00    
+
+Beginning replication 7 of 50
+
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 7 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Wednesday, March 28, 2018, 01:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.7658     (Insuf)    1.4708     4.5515         17    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         17    
+Entity 1.WaitTime                           1.3303     (Insuf)    .00000     7.0651         17    
+Entity 1.TranTime                           .00179     (Insuf)    3.2314E-04 .00268         17    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
+Entity 1.TotalTime                          4.0980     (Insuf)    1.4729     8.9794         17    
+Entity 2.VATime                             .78471     (Insuf)    .66037     .90643         17    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         17    
+Entity 2.WaitTime                           1.8465     (Insuf)    .00000     7.0001         17    
+Entity 2.TranTime                           .00167     (Insuf)    6.8981E-04 .00277         17    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
+Entity 2.TotalTime                          2.6329     (Insuf)    .66821     7.6625         17    
+Entity 3.VATime                                 --         --         --         --          0
+Entity 3.NVATime                                --         --         --         --          0
+Entity 3.WaitTime                               --         --         --         --          0
+Entity 3.TranTime                               --         --         --         --          0
+Entity 3.OtherTime                              --         --         --         --          0
+Entity 3.TotalTime                              --         --         --         --          0
+Entity 4.VATime                             1.0347     (Insuf)    1.0347     1.0347          1    
+Entity 4.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 4.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 4.TranTime                           .00234     (Insuf)    .00234     .00234          1    
+Entity 4.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Entity 4.TotalTime                          1.0370     (Insuf)    1.0370     1.0370          1    
+Entity 5.VATime                             2.5547     (Insuf)    .59178     4.2596         47    
+Entity 5.NVATime                            .00000     (Insuf)    .00000     .00000         47    
+Entity 5.WaitTime                           1.4748     (Insuf)    .00000     8.2466         47    
+Entity 5.TranTime                           .00169     (Insuf)    2.0395E-04 .00318         47    
+Entity 5.OtherTime                          .00000     (Insuf)    .00000     .00000         47    
+Entity 5.TotalTime                          4.0313     (Insuf)    .59222     9.6803         47    
+Entity 6.VATime                             2.0665     (Insuf)    1.1913     2.8721         54    
+Entity 6.NVATime                            .00000     (Insuf)    .00000     .00000         54    
+Entity 6.WaitTime                           1.5533     (Insuf)    .00000     7.5871         54    
+Entity 6.TranTime                           .00170     (Insuf)    2.3749E-04 .00330         54    
+Entity 6.OtherTime                          .00000     (Insuf)    .00000     .00000         54    
+Entity 6.TotalTime                          3.6216     (Insuf)    1.1922     9.9667         54    
+Entity 7.VATime                             9.9871     (Insuf)    5.9999     14.436         57    
+Entity 7.NVATime                            .00000     (Insuf)    .00000     .00000         57    
+Entity 7.WaitTime                           1.4228     (Insuf)    .00000     7.2962         57    
+Entity 7.TranTime                           .00170     (Insuf)    6.4549E-04 .00302         57    
+Entity 7.OtherTime                          .00000     (Insuf)    .00000     .00000         57    
+Entity 7.TotalTime                          11.411     (Insuf)    6.0017     20.778         57    
+Dispatch seize resource.Queue.WaitingTime   1.5057     (Insuf)    .00000     8.2466        191    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .15482     (Insuf)    .00000     2.0000     .00000    
+Entity 2.WIP                                .09947     (Insuf)    .00000     3.0000     .00000    
+Entity 3.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 4.WIP                                .00230     (Insuf)    .00000     1.0000     .00000    
+Entity 5.WIP                                .41538     (Insuf)    .00000     3.0000     .00000    
+Entity 6.WIP                                .43593     (Insuf)    .00000     4.0000     1.0000    
+Entity 7.WIP                                1.4213     (Insuf)    .00000     5.0000     .00000    
+Attention.NumberBusy                        1.8931     (Insuf)    .00000     3.0000     1.0000    
+Attention.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .63104     (Insuf)    .00000     1.0000     .33333    
+Dispatch seize resource.Queue.NumberInQueu  .63608     (Insuf)    .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           17.000    
+Entity 1.NumberOut                          17.000    
+Entity 2.NumberIn                           17.000    
+Entity 2.NumberOut                          17.000    
+Entity 3.NumberIn                           .00000    
+Entity 3.NumberOut                          .00000    
+Entity 4.NumberIn                           1.0000    
+Entity 4.NumberOut                          1.0000    
+Entity 5.NumberIn                           44.000    
+Entity 5.NumberOut                          47.000    
+Entity 6.NumberIn                           54.000    
+Entity 6.NumberOut                          54.000    
+Entity 7.NumberIn                           55.000    
+Entity 7.NumberOut                          57.000    
+Attention.NumberSeized                      191.00    
+Attention.ScheduledUtilization              .63104    
+System.NumberOut                            193.00    
+
+Beginning replication 8 of 50
+SIMAN Run Controller.
+
+0.0 Minutes>
+                                      ARENA Simulation Results
+                                  sl365@duke.edu - License: STUDENT
+
+                                  Summary for Replication 8 of 50
+
+Project: Unnamed Project                                             Run execution date : 3/28/2018
+Analyst: sl365@duke.edu                                              Model revision date: 3/28/2018
+
+Replication ended at time      : 0.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Entity 2.VATime                                 --         --         --         --          0
+Entity 2.NVATime                                --         --         --         --          0
+Entity 2.WaitTime                               --         --         --         --          0
+Entity 2.TranTime                               --         --         --         --          0
+Entity 2.OtherTime                              --         --         --         --          0
+Entity 2.TotalTime                              --         --         --         --          0
+Entity 3.VATime                                 --         --         --         --          0
+Entity 3.NVATime                                --         --         --         --          0
+Entity 3.WaitTime                               --         --         --         --          0
+Entity 3.TranTime                               --         --         --         --          0
+Entity 3.OtherTime                              --         --         --         --          0
+Entity 3.TotalTime                              --         --         --         --          0
+Entity 4.VATime                                 --         --         --         --          0
+Entity 4.NVATime                                --         --         --         --          0
+Entity 4.WaitTime                               --         --         --         --          0
+Entity 4.TranTime                               --         --         --         --          0
+Entity 4.OtherTime                              --         --         --         --          0
+Entity 4.TotalTime                              --         --         --         --          0
+Entity 5.VATime                                 --         --         --         --          0
+Entity 5.NVATime                                --         --         --         --          0
+Entity 5.WaitTime                               --         --         --         --          0
+Entity 5.TranTime                               --         --         --         --          0
+Entity 5.OtherTime                              --         --         --         --          0
+Entity 5.TotalTime                              --         --         --         --          0
+Entity 6.VATime                                 --         --         --         --          0
+Entity 6.NVATime                                --         --         --         --          0
+Entity 6.WaitTime                               --         --         --         --          0
+Entity 6.TranTime                               --         --         --         --          0
+Entity 6.OtherTime                              --         --         --         --          0
+Entity 6.TotalTime                              --         --         --         --          0
+Entity 7.VATime                                 --         --         --         --          0
+Entity 7.NVATime                                --         --         --         --          0
+Entity 7.WaitTime                               --         --         --         --          0
+Entity 7.TranTime                               --         --         --         --          0
+Entity 7.OtherTime                              --         --         --         --          0
+Entity 7.TotalTime                              --         --         --         --          0
+Dispatch seize resource.Queue.WaitingTime       --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 2.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 3.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 4.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 5.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 6.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Entity 7.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Attention.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Attention.NumberScheduled                   .00000     (Insuf)    3.0000     3.0000     3.0000    
+Attention.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Dispatch seize resource.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Recordkeeping_Failure_Unknown                     0  Infinite
+DirectiveCourtesy2_Failure_Unknown                0  Infinite
+DirectiveCourtesy_Failure_Unknown                 0  Infinite
+Actuation_Failure_Unknown                         0  Infinite
+CommunicationsOther_Failure_Unknown               0  Infinite
+DirectiveMandatory_Failure_Unknown                0  Infinite
+Exogenous_Failure_Unknown                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+Entity 2.NumberIn                           .00000    
+Entity 2.NumberOut                          .00000    
+Entity 3.NumberIn                           .00000    
+Entity 3.NumberOut                          .00000    
+Entity 4.NumberIn                           .00000    
+Entity 4.NumberOut                          .00000    
+Entity 5.NumberIn                           .00000    
+Entity 5.NumberOut                          .00000    
+Entity 6.NumberIn                           .00000    
+Entity 6.NumberOut                          .00000    
+Entity 7.NumberIn                           .00000    
+Entity 7.NumberOut                          .00000    
+Attention.NumberSeized                      .00000    
+Attention.ScheduledUtilization              .00000    
+System.NumberOut                            .00000    
+
