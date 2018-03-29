@@ -1,0 +1,30 @@
+[RESOURCES]
+Dispatcher1
+Dispatcher2
+AI_1
+[VARIABLES]
+Referencing.NumberOut
+Process_Actuation.NumberOut
+Process_Recordkeeping.NumberIn
+Process_Actuation.NumberIn
+Process_Recordkeeping.NumberOut
+Process_Directive_Courtesy_2.NumberIn
+Process_Directive_Courtesy_1.NumberIn
+Process_Directive_Courtesy_2.NumberOut
+Process_Directive_Courtesy_1.NumberOut
+Process_Referencing.NumberOut
+Process_Directive_Mandatory.NumberOut
+Actuation.NumberOut
+Process_Referencing.NumberIn
+Process_Communications_Other.NumberOut
+Dispose 1.NumberOut
+Process_Communications_Other.NumberIn
+Process_Team Coordination.NumberIn
+Process_Team Coordination.NumberOut
+Directive_Mandatory.NumberOut
+Communications_Other.NumberOut
+Team Coordination.NumberOut
+Recordkeeping.NumberOut
+Directive_Courtesy_2.NumberOut
+Directive_Courtesy_1.NumberOut
+Process_Directive_Mandatory.NumberIn
