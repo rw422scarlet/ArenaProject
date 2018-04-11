@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Sam\Duke\Junior Year\Independent Study\5. Heterogeneity
+DefaultDir=C:\Users\Sam\AppData\Roaming\Rockwell Software\Arena
 DBQ=C:\Sam\Duke\Junior Year\Independent Study\5. Heterogeneity\HeterogeneousDoubleServiceWithFailure.accdb
