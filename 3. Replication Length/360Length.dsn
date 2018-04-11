@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Sam\Duke\Junior Year\Independent Study\Heterogeneity
-DBQ=C:\Sam\Duke\Junior Year\Independent Study\Replication Length\360Length.accdb
+DefaultDir=c:\Sam\Duke\Junior Year\Independent Study\3. Replication Length
+DBQ=C:\Sam\Duke\Junior Year\Independent Study\3. Replication Length\360Length.accdb
