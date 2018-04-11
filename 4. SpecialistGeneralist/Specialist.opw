@@ -23,6 +23,6 @@ Dispatch seize resource.NumberOut
 Communications_Other.NumberOut
 Dispatch seize resource.NumberIn
 Recordkeeping.NumberOut
-Directive_Courtesy_2.NumberOut
 Directive_Courtesy_1.NumberOut
+Directive_Courtesy_2.NumberOut
 Process_Directive_Mandatory.NumberIn
