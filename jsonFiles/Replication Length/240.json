@@ -1,0 +1,38 @@
+{
+    "numHours": 4,
+    "traffic":[0,0,0,0],
+    "numReps": 50,
+    "numRemoteOp" : 2,
+    "numTeams": 1,
+    "numvehicles": [1],
+    "autolvl":0,
+    "numPhases":1,
+
+    "hasExogenous":[0,2],
+    "exNames":["Medical","Weather"],
+    "exTypes":["add_task","long_serv"],
+
+    "failThreshold":0.5,
+    "opStrats":"FIFO",
+    "opNames":["Dispatcher"],
+    "opTasks":[[0,1,2,3,4,5,6]],
+    "teamComm":["N"],
+    "teamSize":[2],
+    "fleetTypes": 1,
+    "fleetHetero":[[0]],
+
+    "numTaskTypes":7,
+    "taskNames":["Actuation","Directive_Mandatory","DC_1","DC_2","Communications_Other","Recordkeeping","Referencing"],
+    "taskPrty":[[3],[3],[3],[3],[3],[3],[3]],
+    "arrDists":["E","E","E","E","E","E","E"],
+    "arrPms":[[0.03333],[0.03333],[0.00166667],[0.00166667],[0.0952381],[0.149925],[0.149925]],
+    "serDists":["U","U","U","U","E","U","U"],
+    "serPms":[[0.5,2],[0,0.5],[0.167,2.5],[0.167,2.5],[7.5188],[0.05,1.5],[0.05,1.5]],
+    "expDists":["E","E","E","E","E","E","E"],
+    "expPmsLo":[[999],[999],[999],[999],[999],[999],[999]],
+    "expPmsHi":[[999],[999],[999],[999],[999],[999],[999]],
+    "affByTraff":[[0],[0],[0],[0],[0],[0],[0]],
+    "teamCoordAff":[0,0,0,0,0,0,0],
+    "humanError":[[0.02,0.02,0.02],[0.02,0.02,0.02],[0.02,0.02,0.02],[0.02,0.02,0.02],[0.02,0.02,0.02],[0.02,0.02,0.02],[0.02,0.02,0.02]]
+
+}
