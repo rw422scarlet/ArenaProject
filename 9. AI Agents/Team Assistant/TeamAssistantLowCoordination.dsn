@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Sam\Duke\Junior Year\Independent Study\9. AI Agents\Operator Assistant
+DefaultDir=c:\Sam\Duke\Junior Year\Independent Study\9. AI Agents\Team Assistant
 DBQ=C:\Sam\Duke\Junior Year\Independent Study\9. AI Agents\Team Assistant\TeamAssistantLowCoordination.accdb
